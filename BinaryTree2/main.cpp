@@ -68,6 +68,8 @@ void testTreeWithMaxElement(long long max) {
     cout << "L'insertion de "<< max <<" elements a pris " << duration.count() << " ms" <<endl;
     cout << tree1->size() << " elements sont inserees" << endl;
 
+
+
     delete tree1;
 
     cout<< endl;
@@ -82,13 +84,16 @@ int main() {
 
 
     // Test d'un million
-    testTreeWithMaxElement(1000*1000);
+//    testTreeWithMaxElement(1000*1000);
+//
+//    //Test de 10 Million
+//    testTreeWithMaxElement(1000*1000*10);
+//
+//    //Test de 100 Million
+//    testTreeWithMaxElement(1000*1000*100);
 
-    //Test de 10 Million
-    testTreeWithMaxElement(1000*1000*10);
-
-    //Test de 30 Million
-    testTreeWithMaxElement(1000*1000*30);
+    //Test de 1 bilion
+    testTreeWithMaxElement(1000*1000*1000);
 
     cout << "presse any key to continue...\n\n";
     getchar();
