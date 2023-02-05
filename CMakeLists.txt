@@ -6,7 +6,7 @@ set(CMAKE_CXX_STANDARD 17)
 set(PROJECT_HEADERS
         )
 set(PROJECT_SOURCES_Tree
-        BinaryTree2/main.cpp BinaryTree2/Pair.h BinaryTree2/BTree.h BinaryTree2/BigInt.h
+        AVL_Tree_Fibonacci/main.cpp AVL_Tree_Fibonacci/Pair.h AVL_Tree_Fibonacci/BTree.h AVL_Tree_Fibonacci/BigInt.h
         )
 set(PROJECT_SOURCES_hashtable
         hashtable/HashTable.h hashtable/main.cpp
